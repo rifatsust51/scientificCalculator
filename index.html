@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scientificCalculator</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script> 
+   
+</head>
+<body>
+   <header>
+    <div class="github">
+        <a href="https://github.com/rifatsust51/scientificCalculator"> <i class="fa-brands fa-github"  style="font-size: 25px;"></i></a>
+    </div>
+   </header> 
+   <div class="container">
+    <div class="box-text">
+        <h1>CASIO</h1>
+        <p>natural-V.P.A.M</p>
+        <small>Mac Edition</small>
+    </div>
+    <div class="display-sc">
+        <input type="text"  id="inputBox" value="">
+    </div>
+    <div class="support-btns">
+        <div class="bg">
+            <button type="button" class="btn" onclick="copy()"></button>
+            <button type="button" onclick="paste()"></button>
+        </div>
+        <div class="bg">
+            <button type="button" class="btn" id="config"></button>
+            <button type="button" class="btn" id="start"></button>
+        </div>
+    </div>
+    <div class="funct-keys">
+
+        <div class="row">
+           <button type="button" class="function"><small> Abs</small> </button>
+           <button type="button" class="function"> <small> x<sup>3</sup></small></button>
+           <button type="button" id="right-btn"></button>
+           <button type="button" id="left-btn"></button>
+           <button type="button" class="btn"><small> x<sup>-1</sup></small></button>
+           <button type="button" id="logBaseButton"><small>log□<sup>□</sup></small></button>
+        </div>
+        <div class="row">
+           <button type="button" class="btn" id="divisionButton"><small>x/y</small> </button>
+           <button type="button" class="function"><small> √</small> </button>
+           <button type="button" class="function"> <small> x²</small></button>
+           <button type="button" class="btn"><small> x<sup>□</sup></small></button>
+           <button type="button" class="function"><small> log</small> </button>
+           <button type="button" class="function"><small> Ln</small> </button>
+        </div>
+        <div class="row">
+           <button type="button" class="btn"><small>(-) </small></button>
+           <button type="button" onclick="sexagesimal()"><small>.,,,</small></button>
+           <button type="button"> <small> hyp</small> </button>
+           <button type="button" class="function"><small>sin</small></button>
+           <button type="button" class="function"><small>cos</small></button>
+           <button type="button" class="function"><small>tan</small></button>
+        </div>
+        <div class="row">
+           <button type="button" id="memoryRecallButton"><small> RCL</small></button>
+           <button type="button" onclick="eng()"><small> ENG</small> </button>
+           <button type="button" class="btn"> <small> (</small></button>
+           <button type="button" class="btn"><small> )</small></button>
+           <button type="button" id="toggleSDButton"><small> S&#8660D</small> </button>
+           <button type="button" class="btn" id="memoryStoreButton"><small> M+</small> </button>
+        </div>
+     </div>
+     <div class="basic-keys">
+        <div class="row">
+           <button type="button" class="btn">7 </button>
+           <button type="button" class="btn"> 8</button>
+           <button type="button" class="btn"> 9</button>
+           <button type="button" class="funct" id="DE"> DEL</button>
+           <button type="button" class="funct" id="AC" onclick="screen.value=' '"> AC</button>
+        </div>
+        <div class="row">
+           <button type="button" class="btn"> 4</button>
+           <button type="button" class="btn">5</button>
+           <button type="button" class="btn"> 6</button>
+           <button type="button" class="btn">x </button>
+           <button type="button" class="btn">÷ </button>
+        </div>
+        <div class="row">
+           <button type="button" class="btn">1</button>
+           <button type="button" class="btn"> 2</button>
+           <button type="button" class="btn">3</button>
+           <button type="button" class="btn">+</button>
+           <button type="button" class="btn"> -</button>
+        </div>
+        <div class="row">
+           <button type="button" class="btn"> 0</button>
+           <button type="button" class="btn"> .</button>
+           <button type="button" class="btn" value="3.14159265359"> π</button>
+           <button type="button">ANS</button>
+           <button type="button" id="equalsButton" onclick="result()">=</button>
+        </div>
+     </div>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
