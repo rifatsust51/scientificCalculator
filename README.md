@@ -4,7 +4,7 @@
 
 ## Description
 This web project aims to simulate the operation and features of a real calculator. It was created for self-improving skills in JavaScript, HTML, and CSS. The front-end design is inspired by a Casio calculator, implementing most of its functions with additional features like sound effects and background customization. However, some functions remain a work in progress due to their complexity. All contributions are appreciated.
-## Screenshts
+## Screenshots
 ![Scientific Calculator](<Screenshot (5).png>)
 ## Features
 - **Basic Arithmetic**: Addition, subtraction, multiplication, and division.
@@ -28,8 +28,9 @@ Get started with the scientific calculator by following these steps:
     ```bash
     npm install
    ```
-## Run The project
-- You can run the project directly using this link
+## Run The Project
+- You can run the project directly using this link: [Scientific Calculator](https://rifatsust51.github.io/scientificCalculator/)
+
 
 
 ## Usage
