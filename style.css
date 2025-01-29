@@ -169,6 +169,13 @@ button:active{
 
 @media screen and (max-width: 768px) {
     .container {
+         /* Ensure the calculator takes a responsive width */
+        max-width: 400px; /* Limit the width */
+        margin: auto; /* Center the calculator */
+        position: fixed; /* Keep it fixed in one position */
+        top: 50%; /* Align it to the center vertically */
+        left: 50%; /* Align it to the center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for perfect centering */
         padding: 13px;
         border-radius: 13px;
     }
