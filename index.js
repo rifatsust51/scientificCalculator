@@ -229,7 +229,7 @@ function convert() {
 }
 
 // Attach event listener to convert button
-document.getElementById("equalsButton").addEventListener("click", convert);
+document.getElementById("ansButton").addEventListener("click", convert);
 
 //Dom Events
 
@@ -347,7 +347,6 @@ function setSelectionRange(input, start, end) {
     input.focus();
     input.setSelectionRange(start, end); // Works for modern browsers
 }
-
 
 });
 
