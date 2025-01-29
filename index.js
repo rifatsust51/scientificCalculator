@@ -231,11 +231,6 @@ function convert() {
 // Attach event listener to convert button
 document.getElementById("equalsButton").addEventListener("click", convert);
 
-
-
-
-
-      
 //Dom Events
 
 document.addEventListener('DOMContentLoaded',()=>{
